@@ -74,7 +74,7 @@ def tex_coords(top, bottom, side):
     return result
 
 
-TEXTURE_PATH = 'texture.png'
+TEXTURE_PATH = 'minecraft/texture.png'
 
 GRASS = tex_coords((1, 0), (0, 1), (0, 0))
 SAND = tex_coords((1, 1), (1, 1), (1, 1))
@@ -896,7 +896,3 @@ def main():
     window.set_exclusive_mouse(True)
     setup()
     pyglet.app.run()
-
-
-if __name__ == '__main__':
-    main()

@@ -1,0 +1,25 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "fc07ae7a4502c2f10890084ec0e2d396930ce7628487d4896e3d125769fb0f89"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.6"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "minecraft": {
+            "editable": true,
+            "path": "."
+        }
+    },
+    "develop": {}
+}
